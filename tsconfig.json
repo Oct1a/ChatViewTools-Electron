@@ -27,7 +27,7 @@
     },
 
     /* Electron */
-    "types": ["electron", "vite/client", "@element-plus/icons-vue"]
+    "types": ["electron", "vite/client", "@element-plus/icons-vue", "element-plus/global"]
   },
   "include": [
     "src/**/*.ts",
@@ -36,7 +36,8 @@
     "src/**/*.vue",
     "electron/**/*.ts",
     "electron/**/*.js",
-    "electron-env.d.ts"
+    "electron-env.d.ts",
+    "src/types/**/*.d.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -33,6 +33,11 @@ ChatView Tools 是一个使用 Electron、Vue 3 和 TypeScript 开发的现代�
 - 聊天上下文浏览
 - 消息导出功能
 
+## 界面预览
+
+### 主界面
+![主界面](./image/Snipaste_2025-03-30_14-59-44.jpg)
+
 ## 重要说明
 
 ### 使用限制
